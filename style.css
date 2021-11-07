@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #c4c4c4;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+ }
+ .profile{
+     width: 800px;
+     display: flex;
+     justify-content:center;
+     margin: 50px auto;
+     background: #fff;
+     padding: 10px;       
+ }
+ 
+ header{
+     height: 100px;
+     width: 100%;
+     background: #fff;  
+      
+ }
+ .resume_name{
+    font-size: 30px;
+    font-weight: bold; 
+    display: flex;
+
+    justify-content: start;   
+ }
+ .qualification{
+     font-size: 15px;
+     margin-left: 10px;
+     display: flex;
+     justify-content: center; 
+ }
+
+ .profile .resume_left{
+     width: 40%;
+     display: flex; 
+     justify-content: center;
+     margin-right: 10px;
+ }
+ .profile_info {
+    margin: 5px 0px 5px 5px;
+    line-height: 20px;;
+ }
+ 
+ .logo{
+     height: 20px;
+     width: 20px;
+     margin-top: 5px;
+ }
+ .title{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #c4c4c4;
+    margin-right: 10px;
+ }
+ .skills{
+    margin: 5px 0px 10px 5px;
+ }
+ .hobby{
+     margin: 10px;
+ }
+
+ .profile .resume_right{
+     width: 60%;
+     display: flex;
+ }
+.sub-title{
+    font-weight: bold;
+    margin: 10px;
+}
+.data{
+    margin-left: 10px;
+}
